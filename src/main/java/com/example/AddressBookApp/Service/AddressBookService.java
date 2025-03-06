@@ -54,7 +54,7 @@ public class AddressBookService implements AddressBookServiceInterface {
             AddressBookModel updatedContact = repository.save(contact);
             return new AddressBookDTO(updatedContact.getId(), updatedContact.getName(), updatedContact.getPhone());
         }
-        return null;  // Returns null if the contact is not found
+        return null;
     }
 
 
