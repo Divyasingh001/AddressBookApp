@@ -1,5 +1,6 @@
 package com.example.AddressBookApp.Controller;
 import com.example.AddressBookApp.DTO.AddressBookDTO;
+import com.example.AddressBookApp.Interface.AddressBookServiceInterface;
 import com.example.AddressBookApp.Service.AddressBookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -9,9 +10,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/addressbook")
 public class AddressBookController {
-
     @Autowired
-    private AddressBookService service;
+    AddressBookServiceInterface service;
+
 
     //Get all contacts
     @GetMapping("/showcontacts")
