@@ -1,6 +1,7 @@
 package com.example.AddressBookApp.Controller;
 
 import com.example.AddressBookApp.DTO.AuthUserDTO;
+import com.example.AddressBookApp.DTO.LoginDTO;
 import com.example.AddressBookApp.Exception.ResponseDTO;
 import com.example.AddressBookApp.Service.AuthenticatiionService;
 import com.example.AddressBookApp.model.AuthUser;
@@ -20,6 +21,11 @@ public class AuthUserController {
         ResponseDTO responseUserDTO =new ResponseDTO("User details is submitted!",user);
         return new ResponseEntity<>(responseUserDTO, HttpStatus.CREATED);
     }
-
+    @PostMapping("/login")
+    public ResponseEntity<ResponseDTO> login(@Valid @RequestBody LoginDTO loginDTO){
+        String result=authenticationService.login(loginDTO);
+        ResponseDTO responseUserDTO=new ResponseDTO("Login successfully!!",result);
+        return  new ResponseEntity<>(responseUserDTO,HttpStatus.OK);
+    }
 
 }

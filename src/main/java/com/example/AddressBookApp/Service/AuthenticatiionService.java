@@ -1,6 +1,8 @@
 package com.example.AddressBookApp.Service;
 
 import com.example.AddressBookApp.DTO.AuthUserDTO;
+import com.example.AddressBookApp.DTO.LoginDTO;
+import com.example.AddressBookApp.Exception.UserException;
 import com.example.AddressBookApp.Interface.IAuthenticationService;
 import com.example.AddressBookApp.Repository.AuthenticationRepository;
 import com.example.AddressBookApp.model.AuthUser;
@@ -23,6 +25,16 @@ public class AuthenticatiionService implements IAuthenticationService {
 
         return user;
     }
+    @Override
+    public String login(LoginDTO loginDTO) {
+        Optional<AuthUser> user = Optional.ofNullable(authUserRepository.findByEmail(loginDTO.getEmail()));
+
+        if (user.isPresent()) {
 
 
-}
+                return "Congratulations!! You have logged in successfully!";
+            } else {
+                throw new UserException("Sorry! Email or Password is incorrect!");
+            }
+        }
+    }
