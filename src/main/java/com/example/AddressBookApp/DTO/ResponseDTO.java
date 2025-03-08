@@ -1,4 +1,4 @@
-package com.example.AddressBookApp.Exception;
+package com.example.AddressBookApp.DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
