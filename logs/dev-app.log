@@ -6993,3 +6993,72 @@ Unconditional classes:
 2025-03-08T23:03:30.658+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
 2025-03-08T23:04:00.658+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
 2025-03-08T23:04:00.661+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:04:30.663+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:04:30.664+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:05:00.668+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:05:00.668+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:05:30.679+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:05:30.681+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:06:00.692+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:06:00.692+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:06:30.704+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:06:30.704+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:07:00.706+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:07:00.706+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:07:30.709+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:07:30.709+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:08:00.717+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:08:00.718+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:08:30.725+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:08:30.729+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:09:00.732+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:09:00.733+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:09:30.734+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:09:30.734+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:10:00.737+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:10:00.737+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:10:30.747+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:10:30.764+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:11:00.775+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:11:00.775+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-08T23:11:21.063+05:30 DEBUG 4244 --- [AddressBookApp] [SIGINT handler] java.lang.Runtime                        : Runtime.exit() called with status: 130
+
+java.lang.Throwable: Runtime.exit(130)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179) ~[na:na]
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160) ~[na:na]
+	at java.base/java.lang.Terminator$1.handle(Terminator.java:51) ~[na:na]
+	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:218) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-08T23:11:21.404+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2025-03-08T23:11:21.499+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@50de186c, started on Sat Mar 08 22:59:25 IST 2025
+2025-03-08T23:11:21.653+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147482623
+2025-03-08T23:11:21.698+05:30  INFO 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-08T23:11:21.749+05:30  INFO 4244 --- [AddressBookApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-08T23:11:21.751+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147481599
+2025-03-08T23:11:21.752+05:30 DEBUG 4244 --- [AddressBookApp] [tomcat-shutdown] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2025-03-08T23:11:21.780+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2025-03-08T23:11:21.780+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 1073741823
+2025-03-08T23:11:21.781+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'applicationTaskExecutor' completed its stop procedure
+2025-03-08T23:11:21.781+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147483647
+2025-03-08T23:11:21.785+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'springBootLoggingLifecycle' completed its stop procedure
+2025-03-08T23:11:21.793+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-03-08T23:11:21.805+05:30  INFO 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-08T23:11:21.828+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.hibernate.internal.SessionFactoryImpl  : HHH000031: Closing
+2025-03-08T23:11:21.877+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@147ff052] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@e08d871]
+2025-03-08T23:11:21.890+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.h.s.i.AbstractServiceRegistryImpl      : Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2025-03-08T23:11:21.929+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] o.h.b.r.i.BootstrapServiceRegistryImpl   : Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2025-03-08T23:11:21.937+05:30  INFO 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-08T23:11:21.938+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-03-08T23:11:21.960+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@698ac187: (connection evicted)
+2025-03-08T23:11:22.072+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@698c99b8: (connection evicted)
+2025-03-08T23:11:22.079+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@28b19383: (connection evicted)
+2025-03-08T23:11:22.086+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1953fda5: (connection evicted)
+2025-03-08T23:11:22.091+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@489e6ccc: (connection evicted)
+2025-03-08T23:11:22.095+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4cd050e3: (connection evicted)
+2025-03-08T23:11:22.098+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@9d53fb7: (connection evicted)
+2025-03-08T23:11:22.104+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2de3daaa: (connection evicted)
+2025-03-08T23:11:22.110+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2d368010: (connection evicted)
+2025-03-08T23:11:22.114+05:30 DEBUG 4244 --- [AddressBookApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2b37a2d7: (connection evicted)
+2025-03-08T23:11:22.118+05:30 DEBUG 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-03-08T23:11:22.118+05:30  INFO 4244 --- [AddressBookApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
