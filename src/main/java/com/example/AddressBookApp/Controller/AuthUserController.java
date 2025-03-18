@@ -2,31 +2,31 @@ package com.example.AddressBookApp.Controller;
 
 import com.example.AddressBookApp.DTO.*;
 import com.example.AddressBookApp.Interface.IAuthenticationService;
-import com.example.AddressBookApp.Service.AuthenticatiionService;
 import com.example.AddressBookApp.model.AuthUser;
+import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
 @RestController
-//@RequestMapping("/auth")
 public class AuthUserController {
+
     @Autowired
-    IAuthenticationService authenticationService;
+    private IAuthenticationService authenticationService;
 
     @PostMapping("/register")
-    public ResponseEntity<ResponseDTO> register(@Valid @RequestBody AuthUserDTO userDTO) throws Exception{
-        AuthUser user=authenticationService.register(userDTO);
-        ResponseDTO responseUserDTO =new ResponseDTO("User details is submitted!",user);
+    public ResponseEntity<ResponseDTO> register(@Valid @RequestBody AuthUserDTO userDTO) throws Exception {
+        AuthUser user = authenticationService.register(userDTO);
+        ResponseDTO responseUserDTO = new ResponseDTO("User details submitted!", user);
         return new ResponseEntity<>(responseUserDTO, HttpStatus.CREATED);
     }
-    @PostMapping("/login")
-    public ResponseEntity<ResponseDTO> login(@Valid @RequestBody LoginDTO loginDTO){
-        String result=authenticationService.login(loginDTO);
-        ResponseDTO responseUserDTO=new ResponseDTO("Login successfully!!",result);
-        return  new ResponseEntity<>(responseUserDTO,HttpStatus.OK);
+    @PostMapping(path ="/login")
+    public String login(@Valid @RequestBody LoginDTO user, HttpServletResponse response){
+        return authenticationService.login(user, response);
     }
+
     @PutMapping("/forgotPassword/{email}")
     public ResponseEntity<ResponseDTO> forgotPassword(@PathVariable String email,
                                                       @Valid @RequestBody ForgetPasswordDTO forgotPasswordDTO) {
@@ -43,5 +43,4 @@ public class AuthUserController {
                 resetPasswordDTO.getNewPassword());
         return new ResponseEntity<>(new ResponseDTO(responseMessage, null), HttpStatus.OK);
     }
-
 }
