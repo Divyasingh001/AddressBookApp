@@ -84,7 +84,7 @@ public class AddressBookService implements AddressBookServiceInterface {
         // Publish event to RabbitMQ
         rabbitMQPublisher.sendMessage("contactQueue", "Updated contact: " + updatedContact.getName());
 
-        log.info("✅ Contact updated successfully: {}", updatedContact);
+        log.info(" Contact updated successfully: {}", updatedContact);
         return new AddressBookDTO(updatedContact.getId(), updatedContact.getName(), updatedContact.getPhone());
     }
     @Override
@@ -93,7 +93,7 @@ public class AddressBookService implements AddressBookServiceInterface {
         log.info("Deleting contact with ID: {}", id);
 
         if (!repository.existsById(id)) {
-            log.warn("❗ Attempted to delete non-existing contact with ID: {}", id);
+            log.warn("Attempted to delete non-existing contact with ID: {}", id);
             throw new UserException("Contact not found with ID: " + id);
         }
 
@@ -102,7 +102,7 @@ public class AddressBookService implements AddressBookServiceInterface {
         // Publish event to RabbitMQ
         rabbitMQPublisher.sendMessage("contactQueue", "Deleted contact with ID: " + id);
 
-        log.info("✅ Contact with ID {} deleted successfully.", id);
+        log.info("Contact with ID {} deleted successfully.", id);
         return true;
     }
 
